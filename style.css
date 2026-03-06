@@ -1,0 +1,82 @@
+/* Yeh hum nay all over file ko cs di hai */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+/* Yeh body ki css hai */
+body{
+    background: #001e4d;
+}
+/* Yeh APP card jo hum nay banaya hai us ki css hai */
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+/* Yeh jo heading hai us ki css hai */
+.app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+/* yeh jo quiz questions hum nay banaye hai us ki css hai */
+.quiz{
+    padding: 20px 0;
+}
+/* Quiz questions ki heading ki css hai */
+.quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600px;
+}
+/* Yeh Anwer button ki css hai */
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100% ;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer; 
+    transition: all 0.3s;
+}
+/* Yeh hover effect jab tak aap nay kisi answer per click na kia ho */
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+/* Ye tab jab hum nay answer per click ker dia ho tou hover effect disable ho jaye */
+.btn:disabled{
+    cursor: no-drop;
+}
+/* Yeh next button ki css hai */
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+/* Yeh jab answer correct ho jaye tou us ki css hai */
+.correct{
+    background: #9aeabc;
+}
+/* Yeh jab answer incorrect hot tou us ki css hai */
+.incorrect{
+    background: #ff9393;
+}
